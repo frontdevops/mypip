@@ -39,7 +39,7 @@ Remember to replace `/path/to/mypip` with the actual path to the `mypip` script.
 To install a package and add it to your `requirements.txt`, simply use:
 
 ```bash
-./mypip install package-name -S
+mypip install package-name -S
 ```
 
 `mypip` will install the package using `pip` and append the installed package along with its version to the `requirements.txt` file in the current directory.
@@ -47,7 +47,7 @@ To install a package and add it to your `requirements.txt`, simply use:
 ### Example
 
 ```bash
-./mypip install requests -S
+mypip install requests -S
 ```
 
 This command installs the `requests` library and adds its current version to `requirements.txt`.
